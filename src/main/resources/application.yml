@@ -10,4 +10,4 @@ management:
     health:
       show-details: always
 server:
-  forward-headers-strategy: FRAMEWORK
+  forward-headers-strategy: NATIVE
