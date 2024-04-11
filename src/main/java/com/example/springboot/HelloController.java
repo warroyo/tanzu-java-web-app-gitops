@@ -12,7 +12,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index(HttpServletRequest request) {
-		return "Greetings from Spring Boot + Tanzu multicloud! Clientt IP is "+  request.getRemoteAddr();
+		return "Greetings from Spring Boot + Tanzu multicloud!! Clientt IP is "+  request.getRemoteAddr();
 	}
 
 }
